@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rooted in the Pee Dee | Historical & Genealogical Study</title>
+  <meta
+    name="description"
+    content="An improved, readable, and accessible HTML edition of Rooted in the Pee Dee: a historical and genealogical analysis of Poston, South Carolina, and the Poston family lineage."
+  />
+  <style>
+    :root {
+      --bg: #f7fafc;
+      --surface: #ffffff;
+      --ink: #1f2937;
+      --muted: #4b5563;
+      --accent: #0f766e;
+      --accent-soft: #e6fffa;
+      --border: #dbe5ee;
+      --shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      scroll-behavior: smooth;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 0;
+      background: #111827;
+      color: #fff;
+      padding: 0.75rem 1rem;
+      border-radius: 0 0 0.5rem 0.5rem;
+      z-index: 999;
+    }
+
+    .skip-link:focus {
+      left: 1rem;
+    }
+
+    .wrap {
+      width: min(100%, 74rem);
+      margin: 0 auto;
+      padding: 1.25rem;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #ecfeff 0%, #f0fdfa 55%, #ffffff 100%);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      box-shadow: var(--shadow);
+      padding: clamp(1.25rem, 2vw + 1rem, 2.5rem);
+      margin: 1rem auto 1.5rem;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: #0b534f;
+      border: 1px solid #bceee8;
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      letter-spacing: 0.02em;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    h1,
+    h2,
+    h3 {
+      line-height: 1.2;
+      margin: 0 0 0.75rem;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 2.5vw + 1rem, 2.7rem);
+      margin-bottom: 0.65rem;
+    }
+
+    h2 {
+      margin-top: 1.8rem;
+      font-size: clamp(1.3rem, 1.5vw + 1rem, 1.8rem);
+      color: #0f172a;
+    }
+
+    h3 {
+      margin-top: 1.2rem;
+      font-size: clamp(1.1rem, 1vw + 1rem, 1.3rem);
+      color: #0f172a;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      max-width: 70ch;
+      margin: 0;
+      font-size: 1.05rem;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 18rem minmax(0, 1fr);
+      gap: 1.25rem;
+      align-items: start;
+    }
+
+    .toc,
+    .content {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      box-shadow: var(--shadow);
+    }
+
+    .toc {
+      position: sticky;
+      top: 1rem;
+      padding: 1rem;
+    }
+
+    .toc h2 {
+      margin-top: 0;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+
+    .toc ol {
+      margin: 0.5rem 0 0;
+      padding: 0 0 0 1.2rem;
+      display: grid;
+      gap: 0.45rem;
+      font-size: 0.95rem;
+    }
+
+    .content {
+      padding: clamp(1.15rem, 2vw + 0.75rem, 2rem);
+    }
+
+    .content p {
+      margin: 0.75rem 0;
+      max-width: 75ch;
+    }
+
+    .section-divider {
+      margin: 1.8rem 0 1rem;
+      border: 0;
+      border-top: 1px dashed #cfdbe8;
+    }
+
+    footer {
+      text-align: center;
+      margin: 2rem auto 1rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 940px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: static;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="wrap">
+    <header class="hero" role="banner">
+      <span class="eyebrow">Historical Study</span>
+      <h1>Rooted in the Pee Dee</h1>
+      <p class="subtitle">
+        <strong>Historical and Genealogical Analysis of Poston, South Carolina, and the Poston Family Lineage</strong>
+      </p>
+    </header>
+
+    <div class="layout">
+      <nav class="toc" aria-label="Table of contents">
+        <h2>Contents</h2>
+        <ol>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#part-1">Part I: The Pee Dee Landscape and Early River Commerce</a></li>
+          <li><a href="#part-2">Part II: Railroads and the Rise of Poston</a></li>
+          <li><a href="#part-3">Part III: The Poston Family’s Early Origins</a></li>
+          <li><a href="#part-4">Part IV: The Southern Migration</a></li>
+          <li><a href="#part-5">Part V: Establishing South Carolina Roots</a></li>
+          <li><a href="#part-6">Part VI: Nineteenth-Century Expansion</a></li>
+          <li><a href="#part-7">Part VII: Twentieth-Century Professionalization</a></li>
+          <li><a href="#part-8">Part VIII: Churches and Regional Landmarks</a></li>
+          <li><a href="#part-9">Part IX: Conservation and the Modern Legacy</a></li>
+          <li><a href="#conclusion">Conclusion</a></li>
+        </ol>
+      </nav>
+
+      <main id="main-content" class="content">
+        <section id="introduction" aria-labelledby="introduction-title">
+          <h2 id="introduction-title">Introduction</h2>
+          <p>Poston, South Carolina, in the Pee Dee region, reflects the broader history of the rural South. Its development from a river port to a railroad junction and, ultimately, to a quiet unincorporated community illustrates how transportation networks shaped local prosperity. The Poston family’s migration from England to Pennsylvania, then through North Carolina into South Carolina, parallels that transformation and helps explain how one family left a lasting mark on the region’s geography, economy, and civic identity.</p>
+        </section>
+
+        <hr class="section-divider" />
+
+        <section id="part-1" aria-labelledby="part-1-title">
+          <h2 id="part-1-title">Part I: The Pee Dee Landscape and Early River Commerce</h2>
+          <p>Before it became known as Poston, the area was called Ellison and functioned as an active river port on the Great Pee Dee River. The surrounding floodplains and bottomlands provided fertile agricultural land but also created severe transportation challenges. River landings such as Allison Landing connected the area to regional trade routes, and by the early nineteenth century steamboat traffic increased the speed and volume of commerce, especially for cotton moving toward Georgetown.</p>
+
+          <h3>The Limits of the River Economy</h3>
+          <p>Despite its advantages, river-based commerce remained unstable. Hidden snags, shifting sandbars, flooding, and cargo losses made the economy vulnerable. Ellison prospered for a time, but its dependence on the river left it exposed to disruption and made later railroad development especially attractive.</p>
+        </section>
+
+        <section id="part-2" aria-labelledby="part-2-title">
+          <h2 id="part-2-title">Part II: Railroads and the Rise of Poston</h2>
+          <p>In the early twentieth century, railroad expansion transformed the community. Andrew Poston, a major landowner and civic leader, helped secure the land arrangements that brought a depot to Ellison. The railroad designated the siding “Poston,” and the community adopted the name. By 1914, Poston had become an important junction tied into a larger rail network linking inland agricultural areas with the coast.</p>
+
+          <h3>Growth, Resistance, and Decline</h3>
+          <p>Poston’s boom was brief. Although the railroads created jobs and commercial opportunities, local resistance to a proposed railroad repair facility halted deeper industrial development. Residents preferred to preserve the area’s agrarian character rather than become a heavily industrialized town. After Andrew Poston’s death, the town lost its strongest advocate, and the railroad companies reduced their investment. Poston’s growth stalled, and the community declined.</p>
+
+          <h3>Transfer to Florence County</h3>
+          <p>Originally part of Marion County, Poston eventually became part of Florence County. Geographic isolation, poor access to the Marion county seat, and changing transportation routes made local administration from Marion increasingly impractical. The shift into Florence County reflected the town’s altered economic and political orientation.</p>
+        </section>
+
+        <section id="part-3" aria-labelledby="part-3-title">
+          <h2 id="part-3-title">Part III: The Poston Family’s Early Origins</h2>
+          <p>The Poston family’s documented American history begins with John Poston I, who emigrated from England in the early eighteenth century. Family lines appear in Maryland and Pennsylvania records, with the branch most relevant to South Carolina becoming established in Chester County, Pennsylvania. There, the family acquired land and built the economic foundation that later enabled its movement southward.</p>
+
+          <h3>The Pennsylvania Settlement</h3>
+          <p>By the early 1700s, the family held land along Octoraro Creek in Pennsylvania. This settlement gave the Postons stability and resources, and surviving wills and land records show a family already firmly rooted in colonial property ownership and inheritance structures.</p>
+        </section>
+
+        <section id="part-4" aria-labelledby="part-4-title">
+          <h2 id="part-4-title">Part IV: The Southern Migration</h2>
+          <p>In 1766, John Poston II sold the Pennsylvania tract and moved south, following the Great Philadelphia Wagon Road into North Carolina. This migration reflected a larger pattern in colonial America as families sought cheaper land and new opportunity farther south. In Rowan County, North Carolina, the family expanded its holdings and became active in local civic life.</p>
+
+          <h3>Navigating the Great Philadelphia Wagon Road</h3>
+          <p>The road served as one of the major arteries of settlement into the southern backcountry. The Postons’ movement along it placed them within the stream of migrants who helped populate North Carolina and South Carolina’s frontier regions. By the next generation, branches of the family had pushed into the Pee Dee.</p>
+        </section>
+
+        <section id="part-5" aria-labelledby="part-5-title">
+          <h2 id="part-5-title">Part V: Establishing South Carolina Roots</h2>
+          <p>In South Carolina, later generations of the family settled in what became the Marion District. Over time, family tradition simplified this migration story into a myth of two brothers arriving directly from England. Genealogical research has corrected that account, showing instead a multi-generational migration through Pennsylvania and North Carolina before the family became firmly rooted in the Pee Dee.</p>
+        </section>
+
+        <section id="part-6" aria-labelledby="part-6-title">
+          <h2 id="part-6-title">Part VI: Nineteenth-Century Expansion</h2>
+          <p>By the nineteenth century, the Postons had become a substantial agrarian family in the Pee Dee region. Hugh Poston and his descendants helped establish the surname across Marion and Florence counties. Their success rested on productive river-bottom land and the ability to operate within the agricultural economy tied to Ellison’s port activity.</p>
+
+          <h3>Andrew Poston and the Modern Settlement</h3>
+          <p>Andrew Poston became the family figure most directly associated with the place itself. His influence over land, transportation access, and civic relationships helped convert Ellison into Poston. In that sense, he was not merely a local landowner but the principal architect of the community’s modern identity.</p>
+        </section>
+
+        <section id="part-7" aria-labelledby="part-7-title">
+          <h2 id="part-7-title">Part VII: Twentieth-Century Professionalization</h2>
+          <p>As the regional economy changed, later members of the Poston family moved beyond farming into medicine, law enforcement, and public service. This shift mirrored broader patterns in the South, where established rural families increasingly entered professional life while maintaining their local influence.</p>
+        </section>
+
+        <section id="part-8" aria-labelledby="part-8-title">
+          <h2 id="part-8-title">Part VIII: Churches and Regional Landmarks</h2>
+          <p>The family’s history is also reflected in the churches and historic institutions of the region. Religious life formed a major part of community identity, and ecclesiastical landmarks across Florence County and beyond help frame the cultural world in which the Postons lived and operated.</p>
+        </section>
+
+        <section id="part-9" aria-labelledby="part-9-title">
+          <h2 id="part-9-title">Part IX: Conservation and the Modern Legacy</h2>
+          <p>In the present era, the family’s relationship to the land has taken on a conservation focus. The Poston Preserve represents a modern expression of long-term stewardship, shifting emphasis from agricultural extraction to preservation of wildlife, habitat, and regional heritage. In that respect, the family’s bond with the South Carolina landscape continues, though in a new form.</p>
+        </section>
+
+        <section id="conclusion" aria-labelledby="conclusion-title">
+          <h2 id="conclusion-title">Conclusion</h2>
+          <p>The story of Poston, South Carolina, is ultimately a story about the interplay of land, transportation, and family continuity. The community rose first through river commerce, then through railroad expansion, and later receded as larger economic systems changed. Across those shifts, the Poston family remained a persistent local force. Their migration, landholding, civic leadership, and modern conservation efforts give the region a rare continuity of identity across more than two centuries.</p>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>Prepared as an improved, accessibility-focused HTML presentation.</p>
+    </footer>
+  </div>
+</body>
+</html>
