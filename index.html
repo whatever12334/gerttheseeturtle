@@ -1,243 +1,294 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gert the SEE Turtle | Children's Storybook Series</title>
-  <meta name="description" content="Meet Gert the SEE Turtle, a cheerful children's storybook series inspired by the South Carolina coast and designed to teach counting, colors, emotions, and curiosity through ocean adventures.">
+  <title>Gert the SEE Turtle | Storybook Series</title>
+  <meta name="description" content="Meet Gert the SEE Turtle, a cheerful children's storybook series by Maxine Moody Poston featuring counting, colors, emotions, and coastal adventures.">
   <meta name="theme-color" content="#0caed9">
-  <meta property="og:title" content="Gert the SEE Turtle | Children's Storybook Series">
-  <meta property="og:description" content="Counting, colors, emotions, and coastal adventures for young readers.">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://gerttheseeturtle.com/">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="images/gert_banner.png">
+  <meta property="og:title" content="Gert the SEE Turtle | Storybook Series">
+  <meta property="og:description" content="A children's storybook series by Maxine Moody Poston featuring counting, colors, emotions, and coastal adventures.">
+  <meta property="og:url" content="https://gerttheseeturtle.com/">
+  <meta property="og:image" content="https://gerttheseeturtle.com/images/gert_banner.jpeg">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gert the SEE Turtle | Storybook Series">
+  <meta name="twitter:description" content="A children's storybook series by Maxine Moody Poston featuring counting, colors, emotions, and coastal adventures.">
+  <meta name="twitter:image" content="https://gerttheseeturtle.com/images/gert_banner.jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Gert the SEE Turtle",
-    "url": "/",
-    "description": "A children's storybook series featuring Gert the SEE Turtle and early learning adventures inspired by the coast.",
-    "publisher": {
-      "@type": "Person",
-      "name": "Maxine Moody Poston"
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Gert the SEE Turtle",
+      "url": "https://gerttheseeturtle.com/",
+      "description": "A children's storybook series by Maxine Moody Poston featuring counting, colors, emotions, and coastal adventures.",
+      "publisher": {
+        "@type": "Person",
+        "name": "Maxine Moody Poston"
+      }
     }
-  }
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <header class="site-header">
+  <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a href="#top" class="brand" aria-label="Gert the SEE Turtle home">
-        <span class="brand-mark">🐢</span>
-        <span>Gert the SEE Turtle</span>
+      <a class="brand" href="#top" aria-label="Gert the SEE Turtle home">
+        <img class="brand-mark" src="images/gert_character.png" alt="Gert the SEE Turtle character" width="64" height="64">
+        <span class="brand-text">Gert the SEE Turtle</span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation menu">
-        <span></span><span></span><span></span>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
-      <nav id="site-nav" class="site-nav" aria-label="Primary">
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
         <a href="#books">Books</a>
-        <a href="#about">About</a>
+        <a href="#about">About Gert</a>
         <a href="#author">Author</a>
         <a href="#faq">FAQ</a>
+        <a href="#social">Social</a>
       </nav>
     </div>
   </header>
 
-  <main id="main">
-    <section class="hero" id="top">
+  <main id="main-content">
+    <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <span class="eyebrow">A bright coastal storybook series for young readers</span>
-          <h1>Big learning, beachside fun, and one very lovable turtle.</h1>
+          <span class="eyebrow">Children's Storybook Series</span>
+          <h1>Coastal adventures that teach counting, colors, and emotions.</h1>
           <p class="hero-text">
-            Gert turns early learning into an adventure. Through playful ocean stories, children can explore
-            counting, colors, emotions, and curiosity in a way that feels warm, imaginative, and actually fun.
+            Join Gert the SEE Turtle as she explores the shoreline, learns about the world around her,
+            and helps young readers discover early learning concepts through playful stories.
           </p>
+
           <div class="hero-actions">
             <a class="btn btn-primary" href="#books">Explore the Books</a>
-            <a class="btn btn-secondary" href="#author">Meet the Author</a>
+            <a class="btn btn-secondary" href="books/counting.pdf" target="_blank" rel="noopener noreferrer">Read a Book</a>
           </div>
+
           <ul class="hero-points" aria-label="Series highlights">
-            <li>Early learning themes</li>
-            <li>South Carolina coastal inspiration</li>
-            <li>Family-friendly storytelling</li>
+            <li>Counting and number play</li>
+            <li>Colors inspired by the coast</li>
+            <li>Gentle emotional learning</li>
           </ul>
         </div>
 
-        <div class="hero-visual">
-          <div class="hero-card">
-            <img src="images/gert_banner.png" alt="Gert the SEE Turtle Storybook Series banner" width="1200" height="1200" fetchpriority="high">
+        <aside class="hero-card" aria-labelledby="snapshot-title">
+          <span class="eyebrow">Series Snapshot</span>
+          <h2 id="snapshot-title" class="card-title">Three featured adventures</h2>
+          <p>Each title introduces a different learning theme through Gert's world at the beach and by the sea.</p>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Counting</h3>
+              <p>Numbers and playful repetition for early learners.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Colors</h3>
+              <p>Bright coastal scenes and color recognition.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Emotions</h3>
+              <p>Feelings, empathy, and emotional awareness.</p>
+            </article>
           </div>
-        </div>
+        </aside>
       </div>
     </section>
 
-    <section class="stats-bar" aria-label="Series highlights">
+    <section class="stats-bar" aria-label="Quick highlights">
       <div class="container stats-grid">
-        <div class="stat-card">
-          <strong>3 featured titles</strong>
-          <span>Built for early readers and read-aloud time</span>
-        </div>
-        <div class="stat-card">
-          <strong>SEE = Science · Education · Exploration</strong>
-          <span>A simple idea with a smart little mission</span>
-        </div>
-        <div class="stat-card">
-          <strong>Ocean-inspired learning</strong>
-          <span>Counting, colors, feelings, and curiosity</span>
-        </div>
+        <article class="stat-card">
+          <strong>3 featured books</strong>
+          <span>Easy starting points for families, classrooms, and story time.</span>
+        </article>
+        <article class="stat-card">
+          <strong>SEE = Science, Education, and Exploration</strong>
+          <span>The core learning idea behind every Gert adventure.</span>
+        </article>
+        <article class="stat-card">
+          <strong>Coastal inspiration</strong>
+          <span>Stories rooted in curiosity, kindness, and the South Carolina shore.</span>
+        </article>
       </div>
     </section>
 
-    <section class="section section-books" id="books">
+    <section class="section" id="books" aria-labelledby="books-title">
       <div class="container">
         <div class="section-heading centered narrow">
-          <span class="eyebrow">Featured books</span>
-          <h2>Start with Gert’s most popular adventures</h2>
+          <span class="eyebrow">Featured Books</span>
+          <h2 id="books-title">Start with Gert's featured adventures</h2>
           <p>
-            Each book introduces core learning concepts through bright visuals, gentle storytelling, and a healthy amount
-            of turtle-powered charm.
+            Download the featured Gert the SEE Turtle books and explore stories designed to make early learning
+            feel fun, visual, and memorable.
           </p>
         </div>
 
         <div class="book-grid">
           <article class="book-card">
             <div class="book-cover-wrap">
-              <img src="images/counting-with-gert.png" alt="Cover of Counting with Gert" width="1600" height="1600" loading="lazy">
+              <img src="images/counting-with-gert.jpeg" alt="Cover of Gert the SEE Turtle in Counting" width="800" height="1000" loading="lazy">
             </div>
             <div class="book-body">
               <span class="book-tag">Numbers</span>
-              <h3>Counting with Gert</h3>
-              <p>Learn numbers with seashells, shorebirds, waves, and beach discoveries alongside Gert and her friends.</p>
-              <a class="btn btn-primary btn-block" href="books/counting.pdf" download>Download Sample PDF</a>
+              <h3>Gert the SEE Turtle in Counting</h3>
+              <p>Gert explores the coast while helping children learn numbers through playful seaside discoveries.</p>
+              <a class="btn btn-primary btn-block" href="books/counting.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
             </div>
           </article>
 
           <article class="book-card">
             <div class="book-cover-wrap">
-              <img src="images/colors-with-gert.png" alt="Cover of Colors with Gert" width="1600" height="1600" loading="lazy">
+              <img src="images/colors-with-gert.jpeg" alt="Cover of Gert the SEE Turtle in Colors Colors Everywhere" width="800" height="1000" loading="lazy">
             </div>
             <div class="book-body">
               <span class="book-tag">Colors</span>
-              <h3>Colors with Gert</h3>
-              <p>From blue water to golden sand, this title turns the shoreline into a playful lesson in color recognition.</p>
-              <a class="btn btn-primary btn-block" href="books/colors.pdf" download>Download Sample PDF</a>
+              <h3>Colors Colors Everywhere</h3>
+              <p>From white surfboards to orange sunsets, Gert discovers color all around the sea and shoreline.</p>
+              <a class="btn btn-primary btn-block" href="books/colors.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
             </div>
           </article>
 
           <article class="book-card">
             <div class="book-cover-wrap">
-              <img src="images/emotions-at-the-ocean.png" alt="Cover of Emotions at the Ocean" width="1600" height="1600" loading="lazy">
+              <img src="images/emotions-at-the-ocean.jpeg" alt="Cover of Gert the SEE Turtle in Emotions at the Ocean" width="800" height="1000" loading="lazy">
             </div>
             <div class="book-body">
               <span class="book-tag">Feelings</span>
               <h3>Emotions at the Ocean</h3>
-              <p>Help children recognize joy, courage, gratitude, and other feelings through gentle beachside storytelling.</p>
-              <a class="btn btn-primary btn-block" href="books/emotions.pdf" download>Download Sample PDF</a>
+              <p>Gert learns about fear, surprise, anger, gratitude, and trust in a gentle story about feelings.</p>
+              <a class="btn btn-primary btn-block" href="books/emotions.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="about">
+    <section class="section section-alt" id="about" aria-labelledby="about-title">
       <div class="container about-grid">
-        <div class="about-visual card-surface">
-          <img src="images/gert_character.png" alt="Illustration of Gert the SEE Turtle" width="542" height="542" loading="lazy">
-        </div>
         <div class="about-copy">
           <span class="eyebrow">About Gert</span>
-          <h2>Meet a curious little loggerhead with a heart for discovery</h2>
+          <h2 id="about-title">Meet a curious loggerhead with a love for discovery</h2>
           <p>
-            Gert is a young sea turtle inspired by the South Carolina coast. With kindness, curiosity, and a sense of wonder,
-            she explores the shoreline and introduces children to the fun side of learning.
+            Gert is a curious loggerhead sea turtle who lives along the South Carolina coast. Rather than swimming away with her siblings,
+            she stays near the beach to explore, observe, and learn.
           </p>
           <div class="meaning-box">
             <strong>SEE stands for</strong>
-            <span>Science · Education · Exploration</span>
+            <span>Science, Education, and Exploration</span>
           </div>
           <p>
-            That is the whole point of the series: make learning feel natural, memorable, and light. No heavy-handed lecture.
-            Just smart storytelling that does not talk down to kids.
+            That idea sits at the heart of the series: children are invited to notice the world around them,
+            ask questions, and enjoy learning through warm, playful stories.
           </p>
+        </div>
+
+        <div class="about-visual card-surface">
+          <img src="images/gert_character.png" alt="Illustration of Gert the SEE Turtle" width="542" height="542" loading="lazy">
         </div>
       </div>
     </section>
 
-    <section class="section" id="author">
+    <section class="section" id="author" aria-labelledby="author-title">
       <div class="container">
         <div class="section-heading centered narrow">
-          <span class="eyebrow">Meet the author</span>
-          <h2>Created by Maxine Moody Poston</h2>
+          <span class="eyebrow">Meet the Author</span>
+          <h2 id="author-title">Created by Maxine Moody Poston</h2>
           <p>
-            Inspired by the beauty of the South Carolina coast, Maxine Moody Poston created Gert to help young readers explore
-            the world through imagination, kindness, and curiosity.
+            Inspired by the South Carolina coast and a lifelong love of storytelling, Maxine created the Gert books to help
+            children learn to read, count, recognize colors, understand emotions, and stay curious about the world.
           </p>
         </div>
 
         <div class="author-panel">
           <div class="author-images">
-            <figure>
-              <img src="images/author_expo.jpg" alt="Maxine Moody Poston at a local author event" width="1200" height="1600" loading="lazy">
+            <figure class="author-photo-card">
+              <img src="images/author_expo.jpg" alt="Maxine Moody Poston at a local author expo" width="1200" height="1600" loading="lazy">
             </figure>
-            <figure>
+            <figure class="author-photo-card">
               <img src="images/author_signing.jpg" alt="Maxine Moody Poston signing books" width="1200" height="1600" loading="lazy">
             </figure>
           </div>
+
           <div class="author-copy">
-            <h3>A coastal voice with a classroom-friendly mission</h3>
+            <h3>A warm, educational approach to story time</h3>
             <p>
-              The Gert series blends storytelling and education in a way that feels warm, visual, and easy for families to enjoy together.
-              It is built for read-aloud moments, early learning reinforcement, and the kind of books kids ask for again instead of quietly abandoning on a shelf.
+              The series was originally created to help her own children learn, and it continues that same mission:
+              combining imagination, coastal adventure, and early learning into books that are welcoming, playful, and memorable.
             </p>
-            <div class="social-links">
-              <a class="btn btn-secondary" href="https://www.facebook.com/gerttheseeturtle" target="_blank" rel="noopener noreferrer">Facebook</a>
-              <a class="btn btn-secondary" href="https://www.instagram.com/gerttheseeturtle" target="_blank" rel="noopener noreferrer">Instagram</a>
-            </div>
+            <p>
+              Whether the story is about counting, colors, or feelings, every book is designed to support read-aloud moments,
+              encourage conversation, and make learning feel natural.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section faq-section" id="faq">
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
       <div class="container">
         <div class="section-heading centered narrow">
           <span class="eyebrow">FAQ</span>
-          <h2>Quick answers for parents, readers, and curious turtles</h2>
+          <h2 id="faq-title">Quick answers for parents, readers, and classrooms</h2>
         </div>
+
         <div class="faq-list">
           <details>
             <summary>What age range is the series best for?</summary>
-            <p>The books are designed for young children and early readers, especially families looking for bright educational read-aloud stories.</p>
+            <p>The books are a strong fit for young children, early readers, and families looking for engaging read-aloud stories.</p>
           </details>
           <details>
-            <summary>What does “SEE” mean?</summary>
-            <p>SEE stands for Science, Education, and Exploration, which is the learning framework that shapes the series.</p>
+            <summary>What does SEE mean?</summary>
+            <p>SEE stands for Science, Education, and Exploration, the learning framework that guides the series.</p>
           </details>
           <details>
-            <summary>Can I preview the books?</summary>
-            <p>Yes. Each featured title includes a downloadable PDF so visitors can sample the story and artwork.</p>
+            <summary>Can I preview the books online?</summary>
+            <p>Yes. Each featured title includes a PDF link so visitors can open a book and explore the artwork and story.</p>
           </details>
         </div>
       </div>
     </section>
 
-    <section class="cta-band">
+    <section class="cta-band" aria-labelledby="cta-title">
       <div class="container cta-grid">
         <div>
-          <span class="eyebrow eyebrow-light">Bring Gert home</span>
-          <h2>Encourage reading, curiosity, and ocean wonder.</h2>
-          <p>Pick a story, download a sample, and let the little turtle do the heavy lifting.</p>
+          <span class="eyebrow eyebrow-light">Start Reading With Gert</span>
+          <h2 id="cta-title">Bring the Gert the SEE Turtle series to young readers today.</h2>
+          <p>Pick a story, open a sample PDF, and discover a brighter way to build curiosity and confidence.</p>
         </div>
         <div class="cta-actions">
-          <a class="btn btn-light" href="#books">Browse the Books</a>
+          <a class="btn btn-light" href="books/counting.pdf" target="_blank" rel="noopener noreferrer">Open the Counting Book</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="social" aria-labelledby="social-title">
+      <div class="container">
+        <div class="section-heading centered narrow">
+          <span class="eyebrow">Connect</span>
+          <h2 id="social-title">Follow the journey</h2>
+          <p>Stay connected with new updates, events, and moments from the world of Gert the SEE Turtle.</p>
+        </div>
+
+        <div class="social-links social-links-centered">
+          <a class="btn btn-secondary" href="https://www.facebook.com/gerttheseeturtle" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a class="btn btn-secondary" href="https://www.instagram.com/gerttheseeturtle" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
       </div>
     </section>
@@ -265,7 +316,7 @@
       </div>
     </div>
     <div class="container footer-bottom">
-      <p>© 2026 Gert the SEE Turtle. All rights reserved.</p>
+      <p>© <span id="current-year">2026</span> Gert the SEE Turtle. All rights reserved.</p>
     </div>
   </footer>
 
